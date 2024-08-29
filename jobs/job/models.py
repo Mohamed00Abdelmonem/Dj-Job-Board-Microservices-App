@@ -40,7 +40,7 @@ class Job(models.Model):
         self.slug = slugify(self.title)
         return super().save(*args, **kwargs)
     
-    def __str__(self) -> str:
+    def __str__(self):
         return self.title
     
 
