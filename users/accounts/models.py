@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser, BaseUserManager, PermissionsMixin
-from django.contrib.auth.handlers import make_password
+from django.contrib.auth.hashers import make_password
 
 '''
     - user (fn,ln,email,password,username) + auth views + permissions + groups --> admin

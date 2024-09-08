@@ -4,3 +4,4 @@ psycopg2-binary== 2.9.9
 Faker==28.0.0
 django-filter==24.3
 drf-yasg==1.21.7
+setuptools
