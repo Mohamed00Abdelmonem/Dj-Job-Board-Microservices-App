@@ -1,4 +1,4 @@
-
+import Navbar from "@/components/ui/Navbar"
 
 function Joblist(){
 
@@ -9,6 +9,7 @@ function Joblist(){
     // retrun 
     return(
         <div>
+            <Navbar/>
             <h1>job list</h1>
         </div>
     )
