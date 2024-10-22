@@ -8,6 +8,7 @@ function BlogList(){
     //retrun 
     return(
         <div>
+            <></>
             <h1>blog list</h1>
         </div>
     )
